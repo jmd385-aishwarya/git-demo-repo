@@ -11,7 +11,6 @@ Pipeline Analytics is a form of business performance analysis focused on underst
 - [Supported Platforms](#supported-platforms)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Overview
@@ -37,9 +36,6 @@ List common issues and fixes.
 
 ## Contributing
 Add contribution steps.
-
-## License
-State the license.
 
 ## Contact
 List maintainers and links.
