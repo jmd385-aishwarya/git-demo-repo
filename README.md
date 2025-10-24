@@ -1,4 +1,4 @@
-# Project Title
+# PIPELINE ANALYTICS
 Pipeline Analytics is a form of business performance analysis focused on understanding the process of how potential customers move from initial contact to making a purchase. Pipeline Analytics outputs provide visibility of key metrics related to pipeline to drive revenue growth and operational efficiency through better decision making and strategic planning. Core visuals and metrics that breakdown the key elements affecting the sales pipeline, include pipeline coverage to target, lead conversion rates, sales cycle length, win/loss ratios, and forecast accuracy across a given time frame.
 
 ## Table of Contents
