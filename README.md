@@ -3,6 +3,7 @@ Pipeline Analytics is a form of business performance analysis focused on underst
 
 ## Table of Contents
 - [Overview](#overview)
+- [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Configuration](#configuration)
