@@ -52,49 +52,48 @@ This project focuses on Sales Pipeline Analytics. Leveraging a robust tech stack
 ## 📁 Project Structure
 
 ```
-pipeline_analytics_sql-main
-├── Pipeline_Analytics_Database_Project
-    ├── datamart
-    │   └── models
-    │       ├── dim_account.sql
-    │       ├── dim_calendar.sql
-    │       ├── dim_lead.sql
-    │       ├── dim_opportunity.sql
-    │       ├── dim_telemarketer.sql
-    │       ├── dim_user.sql
-    │       ├── fact_pipeline_conversion.sql
-    │       ├── fact_sales_pipeline.sql
-    │       └── fact_sales_waterfall.sql
-    ├── raw
-    │   └── Tables
-    │       ├── account.sql
-    │       ├── account_type.sql
-    │       ├── audit_opportunity.sql
-    │       ├── forcast.sql
-    │       ├── lead.sql
-    │       ├── lead_category_mapping.sql
-    │       ├── lead_source.sql
-    │       ├── opportunity.sql
-    │       ├── sales_target.sql
-    │       ├── sales_type.sql
-    │       ├── target.sql
-    │       ├── team.sql
-    │       ├── team_membership.sql
-    │       └── user.sql
-    └── ssot
-        └── models
-            ├── account.sql
-            ├── calendar.sql
-            ├── lead.sql
-            ├── opportunity.sql
-            ├── pipeline_delta.sql
-            ├── pipeline_lifecycle.sql
-            ├── pipeline_period_snapshot.sql
-            ├── pipeline_stage_history.sql
-            ├── sales_pipeline.sql
-            ├── stage_mapping.sql
-            ├── target.sql
-            └── user.sql
+Pipeline_Analytics_Database_Project
+├── datamart
+│   └── models
+│       ├── dim_account.sql
+│       ├── dim_calendar.sql
+│       ├── dim_lead.sql
+│       ├── dim_opportunity.sql
+│       ├── dim_telemarketer.sql
+│       ├── dim_user.sql
+│       ├── fact_pipeline_conversion.sql
+│       ├── fact_sales_pipeline.sql
+│       └── fact_sales_waterfall.sql
+├── raw
+│   └── Tables
+│       ├── account.sql
+│       ├── account_type.sql
+│       ├── audit_opportunity.sql
+│       ├── forcast.sql
+│       ├── lead.sql
+│       ├── lead_category_mapping.sql
+│       ├── lead_source.sql
+│       ├── opportunity.sql
+│       ├── sales_target.sql
+│       ├── sales_type.sql
+│       ├── target.sql
+│       ├── team.sql
+│       ├── team_membership.sql
+│       └── user.sql
+└── ssot
+    └── models
+        ├── account.sql
+        ├── calendar.sql
+        ├── lead.sql
+        ├── opportunity.sql
+        ├── pipeline_delta.sql
+        ├── pipeline_lifecycle.sql
+        ├── pipeline_period_snapshot.sql
+        ├── pipeline_stage_history.sql
+        ├── sales_pipeline.sql
+        ├── stage_mapping.sql
+        ├── target.sql
+        └── user.sql
 ```
 
 ## 👥 Contributing
