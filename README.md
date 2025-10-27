@@ -1,4 +1,4 @@
-# PIPELINE ANALYTICS
+# Pipeline Analytics
 Pipeline Analytics is a form of business performance analysis focused on understanding the process of how potential customers move from initial contact to making a purchase. Pipeline Analytics outputs provide visibility of key metrics related to pipeline to drive revenue growth and operational efficiency through better decision making and strategic planning. Core visuals and metrics that breakdown the key elements affecting the sales pipeline, include pipeline coverage to target, lead conversion rates, sales cycle length, win/loss ratios, and forecast accuracy across a given time frame.
 
 ## Table of Contents
@@ -39,3 +39,139 @@ Add contribution steps.
 
 ## Contact
 List maintainers and links.
+
+
+# sales_pipeline_analytics
+
+
+
+## 📝 Description
+
+This project focuses on Sales Pipeline Analytics. Leveraging a robust tech stack, it delivers key insights into your sales process. While the specific technologies used are not listed here, the system's features include comprehensive tracking of leads, automated pipeline stage management, and predictive analytics to forecast sales outcomes. This allows for data-driven decision-making, optimized resource allocation, and ultimately, increased sales conversion rates.
+
+## 📁 Project Structure
+
+```
+pipeline_analytics_sql-main
+├── Pipeline_Analytics_Database_Project
+│   ├── datamart
+│   │   ├── StoredProcedures
+│   │   │   ├── sp_dim_account.sql
+│   │   │   ├── sp_dim_calendar.sql
+│   │   │   ├── sp_dim_lead.sql
+│   │   │   ├── sp_dim_opportunity.sql
+│   │   │   ├── sp_dim_telemarketer.sql
+│   │   │   ├── sp_dim_user.sql
+│   │   │   ├── sp_fact_sales_pipeline.sql
+│   │   │   ├── sp_fact_sales_pipeline_conversion.sql
+│   │   │   └── sp_fact_sales_waterfall.sql
+│   │   └── Tables
+│   │       ├── dim_account.sql
+│   │       ├── dim_calendar.sql
+│   │       ├── dim_lead.sql
+│   │       ├── dim_opportunity.sql
+│   │       ├── dim_telemarketer.sql
+│   │       ├── dim_user.sql
+│   │       ├── fact_pipeline_conversion.sql
+│   │       ├── fact_sales_pipeline.sql
+│   │       └── fact_sales_waterfall.sql
+│   ├── db_datareader for SERVICE_LEADLENS_READER.sql
+│   ├── db_datareader for SERVICE_LEADLENS_WRITER.sql
+│   ├── db_datareader for abhishekkumar@jmangroup.com.sql
+│   ├── db_datareader for ankitkumar@jmangroup.com.sql
+│   ├── db_datareader for ashwatikarunanidhi@jmangroup.com.sql
+│   ├── db_datareader for bharathirajac@jmangroup.com.sql
+│   ├── db_datareader for harishkannanr@jmangroup.com.sql
+│   ├── db_datareader for himanshusoni@jmangroup.com.sql
+│   ├── db_datareader for karthisivakumar@jmangroup.com.sql
+│   ├── db_datareader for keerthikakannan@jmangroup.com.sql
+│   ├── db_datareader for kundankumar@jmangroup.com.sql
+│   ├── db_datareader for likhithagurram@jmangroup.com.sql
+│   ├── db_datareader for nadiminti@jmangroup.com.sql
+│   ├── db_datareader for narendrababukatta@jmangroup.com.sql
+│   ├── db_datareader for nivethas@jmangroup.com.sql
+│   ├── db_datareader for rawalsingh@jmangroup.com.sql
+│   ├── db_datareader for ruthraraj@jmangroup.com.sql
+│   ├── db_datareader for shrinilamangai@jmangroup.com.sql
+│   ├── db_datareader for vishalverma@jmangroup.com.sql
+│   ├── db_datawriter for SERVICE_LEADLENS_WRITER.sql
+│   ├── db_datawriter for ankitkumar@jmangroup.com.sql
+│   ├── db_datawriter for ashwatikarunanidhi@jmangroup.com.sql
+│   ├── db_datawriter for kundankumar@jmangroup.com.sql
+│   ├── db_datawriter for shrinilamangai@jmangroup.com.sql
+│   ├── db_datawriter for vishalverma@jmangroup.com.sql
+│   ├── db_ddladmin for ashwatikarunanidhi@jmangroup.com.sql
+│   ├── db_ddladmin for shrinilamangai@jmangroup.com.sql
+│   ├── db_owner for karthisivakumar@jmangroup.com.sql
+│   ├── raw
+│   │   └── Tables
+│   │       ├── account.sql
+│   │       ├── account_type.sql
+│   │       ├── audit_opportunity.sql
+│   │       ├── forcast.sql
+│   │       ├── lead.sql
+│   │       ├── lead_category_mapping.sql
+│   │       ├── lead_source.sql
+│   │       ├── opportunity.sql
+│   │       ├── sales_target.sql
+│   │       ├── sales_type.sql
+│   │       ├── target.sql
+│   │       ├── team.sql
+│   │       ├── team_membership.sql
+│   │       └── user.sql
+│   └── ssot
+│       ├── StoredProcedures
+│       │   ├── sp_account.sql
+│       │   ├── sp_calendar.sql
+│       │   ├── sp_lead.sql
+│       │   ├── sp_opportunity.sql
+│       │   ├── sp_opportunity_lifecycle.sql
+│       │   ├── sp_pipeline_delta.sql
+│       │   ├── sp_pipeline_period_snapshot.sql
+│       │   ├── sp_pipeline_stage_history.sql
+│       │   ├── sp_sales_pipeline.sql
+│       │   ├── sp_target.sql
+│       │   └── sp_user.sql
+│       └── Tables
+│           ├── account.sql
+│           ├── calendar.sql
+│           ├── lead.sql
+│           ├── opportunity.sql
+│           ├── pipeline_delta.sql
+│           ├── pipeline_lifecycle.sql
+│           ├── pipeline_period_snapshot.sql
+│           ├── pipeline_stage_history.sql
+│           ├── sales_pipeline.sql
+│           ├── stage_mapping.sql
+│           ├── target.sql
+│           └── user.sql
+└── archived
+    ├── Previous Script
+    │   ├── gold
+    │   │   ├── sp_dim_pipeline.sql
+    │   │   ├── sp_fact_pipeline.sql
+    │   │   ├── sp_pipeline_conversion_rate.sql
+    │   │   └── sp_pipeline_movements.sql
+    │   └── silver
+    │       ├── sp_calender.sql
+    │       ├── sp_unified_pipeline.sql
+    │       └── sp_unified_pipeline_history.sql
+    ├── sp_dim_pipeline_movements.sql
+    └── sp_fact_pipeline_conversion.sql
+```
+
+## 👥 Contributing
+
+Contributions are welcome! Here's how you can help:
+
+1. **Fork** the repository
+2. **Clone** your fork: `git clone https://github.com/jmd385-aishwarya/sales_pipeline_analytics/tree/main/pipeline_analytics_sql-main.git`
+3. **Create** a new branch: `git checkout -b feature/your-feature`
+4. **Commit** your changes: `git commit -am 'Add some feature'`
+5. **Push** to your branch: `git push origin feature/your-feature`
+6. **Open** a pull request
+
+Please ensure your code follows the project's style guidelines and includes tests where applicable.
+
+---
+*This README was generated with ❤️ by ReadmeBuddy*
