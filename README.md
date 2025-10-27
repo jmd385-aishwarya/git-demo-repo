@@ -75,34 +75,6 @@ pipeline_analytics_sql-main
 │   │       ├── fact_pipeline_conversion.sql
 │   │       ├── fact_sales_pipeline.sql
 │   │       └── fact_sales_waterfall.sql
-│   ├── db_datareader for SERVICE_LEADLENS_READER.sql
-│   ├── db_datareader for SERVICE_LEADLENS_WRITER.sql
-│   ├── db_datareader for abhishekkumar@jmangroup.com.sql
-│   ├── db_datareader for ankitkumar@jmangroup.com.sql
-│   ├── db_datareader for ashwatikarunanidhi@jmangroup.com.sql
-│   ├── db_datareader for bharathirajac@jmangroup.com.sql
-│   ├── db_datareader for harishkannanr@jmangroup.com.sql
-│   ├── db_datareader for himanshusoni@jmangroup.com.sql
-│   ├── db_datareader for karthisivakumar@jmangroup.com.sql
-│   ├── db_datareader for keerthikakannan@jmangroup.com.sql
-│   ├── db_datareader for kundankumar@jmangroup.com.sql
-│   ├── db_datareader for likhithagurram@jmangroup.com.sql
-│   ├── db_datareader for nadiminti@jmangroup.com.sql
-│   ├── db_datareader for narendrababukatta@jmangroup.com.sql
-│   ├── db_datareader for nivethas@jmangroup.com.sql
-│   ├── db_datareader for rawalsingh@jmangroup.com.sql
-│   ├── db_datareader for ruthraraj@jmangroup.com.sql
-│   ├── db_datareader for shrinilamangai@jmangroup.com.sql
-│   ├── db_datareader for vishalverma@jmangroup.com.sql
-│   ├── db_datawriter for SERVICE_LEADLENS_WRITER.sql
-│   ├── db_datawriter for ankitkumar@jmangroup.com.sql
-│   ├── db_datawriter for ashwatikarunanidhi@jmangroup.com.sql
-│   ├── db_datawriter for kundankumar@jmangroup.com.sql
-│   ├── db_datawriter for shrinilamangai@jmangroup.com.sql
-│   ├── db_datawriter for vishalverma@jmangroup.com.sql
-│   ├── db_ddladmin for ashwatikarunanidhi@jmangroup.com.sql
-│   ├── db_ddladmin for shrinilamangai@jmangroup.com.sql
-│   ├── db_owner for karthisivakumar@jmangroup.com.sql
 │   ├── raw
 │   │   └── Tables
 │   │       ├── account.sql
