@@ -55,17 +55,7 @@ This project focuses on Sales Pipeline Analytics. Leveraging a robust tech stack
 pipeline_analytics_sql-main
 ├── Pipeline_Analytics_Database_Project
 │   ├── datamart
-│   │   ├── StoredProcedures
-│   │   │   ├── sp_dim_account.sql
-│   │   │   ├── sp_dim_calendar.sql
-│   │   │   ├── sp_dim_lead.sql
-│   │   │   ├── sp_dim_opportunity.sql
-│   │   │   ├── sp_dim_telemarketer.sql
-│   │   │   ├── sp_dim_user.sql
-│   │   │   ├── sp_fact_sales_pipeline.sql
-│   │   │   ├── sp_fact_sales_pipeline_conversion.sql
-│   │   │   └── sp_fact_sales_waterfall.sql
-│   │   └── Tables
+│   │   └── models
 │   │       ├── dim_account.sql
 │   │       ├── dim_calendar.sql
 │   │       ├── dim_lead.sql
@@ -92,19 +82,7 @@ pipeline_analytics_sql-main
 │   │       ├── team_membership.sql
 │   │       └── user.sql
 │   └── ssot
-│       ├── StoredProcedures
-│       │   ├── sp_account.sql
-│       │   ├── sp_calendar.sql
-│       │   ├── sp_lead.sql
-│       │   ├── sp_opportunity.sql
-│       │   ├── sp_opportunity_lifecycle.sql
-│       │   ├── sp_pipeline_delta.sql
-│       │   ├── sp_pipeline_period_snapshot.sql
-│       │   ├── sp_pipeline_stage_history.sql
-│       │   ├── sp_sales_pipeline.sql
-│       │   ├── sp_target.sql
-│       │   └── sp_user.sql
-│       └── Tables
+│       └── models
 │           ├── account.sql
 │           ├── calendar.sql
 │           ├── lead.sql
@@ -117,19 +95,6 @@ pipeline_analytics_sql-main
 │           ├── stage_mapping.sql
 │           ├── target.sql
 │           └── user.sql
-└── archived
-    ├── Previous Script
-    │   ├── gold
-    │   │   ├── sp_dim_pipeline.sql
-    │   │   ├── sp_fact_pipeline.sql
-    │   │   ├── sp_pipeline_conversion_rate.sql
-    │   │   └── sp_pipeline_movements.sql
-    │   └── silver
-    │       ├── sp_calender.sql
-    │       ├── sp_unified_pipeline.sql
-    │       └── sp_unified_pipeline_history.sql
-    ├── sp_dim_pipeline_movements.sql
-    └── sp_fact_pipeline_conversion.sql
 ```
 
 ## 👥 Contributing
