@@ -61,7 +61,7 @@ Pipeline_Analytics_dbt_Project
 │   ├── utils
 │   │   └── common.sql
 │   └── macros.yml
-├── models
+└── models
     ├── 01_standardization
     │   ├── models
     │   │   ├── account.sql
