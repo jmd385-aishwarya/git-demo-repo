@@ -20,6 +20,8 @@ The difference between the old and the latest versions are:
 |              | Old Version | Latest Version |
 |:-------------|:------------:|---------------:|
 |Source|Hubspot|Dynamics365|
+|another thing|something rubbish but big in size so that i can test whether it resizes automatically| something else too|
+|thing|small|small too|
 
 Old Version - Source as Hubspot
 New Version - Source as Dynamics365
