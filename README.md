@@ -17,9 +17,9 @@ Explain what your project does and why it’s useful.
 
 ## Versions
 The difference between the old and the latest versions are: 
-| Old Version | Latest Version |
-|:------------|---------------:|
-|Source:Hubspot|Source:Dynamics365|
+|              | Old Version | Latest Version |
+|:-------------|:------------:|---------------:|
+|Source|Hubspot|Dynamics365|
 
 Old Version - Source as Hubspot
 New Version - Source as Dynamics365
