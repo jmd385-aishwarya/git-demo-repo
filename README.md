@@ -18,10 +18,10 @@ Explain what your project does and why it’s useful.
 ## Versions
 The difference between the old and the latest versions are: 
 |              | Old Version | Latest Version |
-|:-------------|:------------:|:---------------:|
+|:-------------|:------------|:---------------|
 |Source|Hubspot|Dynamics365|
-|another thing|something rubbish but big in size so that i can test whether it resizes automatically| something else too|
-|thing|small|small too|
+|important models|accounts, opportunity_line_item, opportunity, opportunity_history, stage_mapping| target, pipeline_stage_history, opportunity |
+|Business Units|not compatible for multiple business units|scompatible for multiple business units|
 
 Old Version - Source as Hubspot
 New Version - Source as Dynamics365
