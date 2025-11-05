@@ -23,9 +23,6 @@ The difference between the old and the latest versions are:
 |important models|accounts, opportunity_line_item, opportunity, opportunity_history, stage_mapping| target, pipeline_stage_history, opportunity |
 |Business Units|not compatible for multiple business units|scompatible for multiple business units|
 
-Old Version - Source as Hubspot
-New Version - Source as Dynamics365
-
 ### Hubspot Version
 
 ### Dynamics365 Version
