@@ -3,12 +3,11 @@ Pipeline Analytics is a form of business performance analysis focused on underst
 
 ## Table of Contents
 - [Overview](#overview)
+- [Versions](#versions)
 - [Requirements](#requirements)
-- [Installation](#installation)
 - [Usage](#usage)
-- [Integration and Configuration](#integration-and-configuration)
+- [Integration Steps](#integration-steps)
 - [Features](#features)
-- [Supported Platforms](#supported-platforms)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
 - [Contact](#contact)
@@ -16,10 +15,23 @@ Pipeline Analytics is a form of business performance analysis focused on underst
 ## Overview
 Explain what your project does and why it’s useful.
 
+## Versions
+The difference between the old and the latest versions are: 
+| Old Version | Latest Version |
+|:------------|---------------:|
+|Source:Hubspot|Source:Dynamics365|
+
+Old Version - Source as Hubspot
+New Version - Source as Dynamics365
+
+### Hubspot Version
+
+### Dynamics365 Version
+
 ## Requirements
 List prerequisites and dependencies.
 
-## Integration and Configuration
+## Integration Steps
 ### Step 1
 Explain how to install or clone the repo.
 
