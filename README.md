@@ -20,7 +20,7 @@ Explain what your project does and why it’s useful.
 List prerequisites and dependencies.
 
 ## Integration Steps
-# Step 1
+### Step 1
 Explain how to install or clone the repo.
 
 ## Configuration
