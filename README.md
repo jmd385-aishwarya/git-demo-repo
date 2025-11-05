@@ -82,7 +82,8 @@ Pipeline_Analytics_dbt_Project
     │   │   └── ....
     │   └── sources.yml
     └── sources.yml
-            
+
+```            
 
 ## 👥 Contributing
 
