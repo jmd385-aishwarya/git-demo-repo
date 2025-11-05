@@ -6,7 +6,7 @@ Pipeline Analytics is a form of business performance analysis focused on underst
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Configuration](#configuration)
+- [Integration and Configuration](#integration-and-configuration)
 - [Features](#features)
 - [Supported Platforms](#supported-platforms)
 - [Troubleshooting](#troubleshooting)
@@ -19,7 +19,7 @@ Explain what your project does and why it’s useful.
 ## Requirements
 List prerequisites and dependencies.
 
-## Integration Steps
+## Integration and Configuration
 ### Step 1
 Explain how to install or clone the repo.
 
