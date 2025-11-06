@@ -55,13 +55,13 @@ Modify the `sources.yml` file to ensure proper source mapping for your project's
 version: 2
 sources:
   - name: your_source_name # hubspot or dynamics365
-    descriptrion : give_description
-    database: PIPELINE_ANALYTICS # change to your database name 
-    schema: RAW  # Change to your schema name
+    descriptrion : give_description # give the relevant description
+    database: PIPELINE_ANALYTICS 
+    schema: RAW
     tables:
       - name: your_table_name  # Specify the relevant tables
 ```
-### 2. Update `dbt_project.yml`
+### 3. Update `dbt_project.yml`
 Update project settings for compatibility with your environment.
 ```yaml
 name: 'pipeline_analytics_dbt'
@@ -74,6 +74,31 @@ target-path: "target"
 clean-targets:
   - "target"
   - "dbt_modules"
+```
+### 4. Configure `profiles.yml`
+Ensure your connection settings match your environment.
+```yaml
+pipeline_analytics_dbt:
+  outputs:
+    dev: # update these with relevant credentials/data
+      account: your_account
+      authenticator: externalbrowser
+      database: PIPELINE_ANALYTICS
+      schema: DBO
+      role: your_user_role
+      threads: 4
+      type: snowflake
+      user: your_username
+      warehouse: COMPUTE_WH
+  target: dev
+```
+### 5. Update source configuration file
+Make sure your source configuration file references the correct source, table_name, source and destination column names and datatypes.
+```csv
+source,table_name,source_column_name,dest_column_name,column_name_with_data_type
+dynamics_365,ACCOUNT,ACCOUNTID,ACCOUNTID,ACCOUNTID::VARCHAR
+dynamics_365,ACCOUNT_TYPE,LOADED_AT,LOADED_AT,LOADED_AT::Timestamp_NTZ
+...
 ```
 
 ## Features
