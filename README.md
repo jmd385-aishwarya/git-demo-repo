@@ -103,7 +103,8 @@ dynamics_365,ACCOUNT_TYPE,LOADED_AT,LOADED_AT,LOADED_AT::Timestamp_NTZ
 ### 6. Update Source in macro
 Ensure that you update the macro `generate_dynamics_table` with your source configuration seed file name.
 ```sql
-    {% set source_columns = get_reference_data('your_source_configuration_file', source_name, table_name) %} -- update with the correct source configuration seed file name
+    {% set source_columns = get_reference_data('your_source_configuration_file', source_name, table_name) %} 
+    -- update with the correct source configuration seed file name
 ```
 
 ## Features
