@@ -46,7 +46,9 @@ The difference between the old and the latest versions are:
 ### Dynamics365 Version
 
 ## Requirements
-List prerequisites and dependencies.
+- python 3.7 or higher
+- dbt-core (package for dbt core)
+- dbt-snowflake (adapter for snowflake warehouse)
 
 ## Integration Steps
 ### Step 1
