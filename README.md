@@ -93,12 +93,17 @@ pipeline_analytics_dbt:
   target: dev
 ```
 ### 5. Update source configuration file
-Make sure your source configuration file references the correct source, table_name, source and destination column names and datatypes.
+Make sure your source configuration seed file references the correct source, table_name, source and destination column names and datatypes.
 ```csv
 source,table_name,source_column_name,dest_column_name,column_name_with_data_type
 dynamics_365,ACCOUNT,ACCOUNTID,ACCOUNTID,ACCOUNTID::VARCHAR
 dynamics_365,ACCOUNT_TYPE,LOADED_AT,LOADED_AT,LOADED_AT::Timestamp_NTZ
 ...
+```
+### 6. Update Source in macro
+Ensure that you update the macro `generate_dynamics_table` with your source configuration seed file name.
+```sql
+    {% set source_columns = get_reference_data('your_source_configuration_file', source_name, table_name) %} -- update with the correct source configuration seed file name
 ```
 
 ## Features
