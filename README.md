@@ -62,7 +62,8 @@ Use bullet points for features.
 
 ## Data Modelling
 Pipeline Analytics, a data model serves as the structured foundation for organizing and managing sales pipeline data. It defines how key entities such as customers, leads, opportunities, products, and sales activities are interconnected and represented in a database. This model ensures that data is captured, processed, and analyzed consistently, enabling accurate measurement of metrics like lead conversion rates, sales velocity, and win/loss ratios.
-_Data model Diagram:_ [Data Diagram](link)
+_Data model Diagram:_ [Data Diagram](https://lucid.app/lucidchart
+b4ec1fe4-1f6f-49bd-852b-590a6e623bc4/edit?page=G7OlA_oX8Xjb#)
 
 ## Troubleshooting
 List common issues and fixes.
