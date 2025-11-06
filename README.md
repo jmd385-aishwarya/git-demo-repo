@@ -8,6 +8,7 @@ Pipeline Analytics is a form of business performance analysis focused on underst
 - [Usage](#usage)
 - [Integration Steps](#integration-steps)
 - [Features](#features)
+- [Data Modelling](#data-modelling)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
 - [Contact](#contact)
@@ -41,10 +42,6 @@ The difference between the old and the latest versions are:
 |important models|accounts, opportunity_line_item, opportunity, opportunity_history, stage_mapping| target, pipeline_stage_history, opportunity |
 |Business Units|not compatible for multiple business units|scompatible for multiple business units|
 
-### Hubspot Version
-
-### Dynamics365 Version
-
 ## Requirements
 - python 3.7 or higher
 - dbt-core (package for dbt core)
@@ -62,6 +59,10 @@ Explain how to run it with code blocks.
 
 ## Features
 Use bullet points for features.
+
+## Data Modelling
+Pipeline Analytics, a data model serves as the structured foundation for organizing and managing sales pipeline data. It defines how key entities such as customers, leads, opportunities, products, and sales activities are interconnected and represented in a database. This model ensures that data is captured, processed, and analyzed consistently, enabling accurate measurement of metrics like lead conversion rates, sales velocity, and win/loss ratios.
+_Data model Diagram:_ [Data Diagram](link)
 
 ## Troubleshooting
 List common issues and fixes.
