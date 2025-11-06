@@ -6,7 +6,7 @@ Pipeline Analytics is a form of business performance analysis focused on underst
 - [Versions](#versions)
 - [Requirements](#requirements)
 - [Usage](#usage)
-- [Integration Steps](#integration-steps)
+- [Configuration](#configuration)
 - [Project Structure](#-project-structure)
 - [Features](#features)
 - [Data Modelling](#data-modelling)
@@ -36,25 +36,35 @@ Pipeline Analytics provides visibility into how potential customers move through
 
 ## Versions
 The difference between the old and the latest versions are: 
-|              | Old Version | Latest Version |
-|:-------------|:------------|:---------------|
-|Source|Hubspot|Dynamics365|
+|                |  Old Version                                                                   | Latest Version                              |
+|:---------------|:-------------------------------------------------------------------------------|:--------------------------------------------|
+|Source          |Hubspot                                                                         |Dynamics365                                  |
 |important models|accounts, opportunity_line_item, opportunity, opportunity_history, stage_mapping| target, pipeline_stage_history, opportunity |
-|Business Units|not compatible for multiple business units|scompatible for multiple business units|
+|Business Units  |not compatible for multiple business units                                      |scompatible for multiple business units      |
 
 ## Requirements
 - python 3.7 or higher
 - dbt-core (package for dbt core)
 - dbt-snowflake (adapter for snowflake warehouse)
 
-## Integration Steps
-### Step 1
-Explain how to install or clone the repo.
-
 ## Configuration
-1. Update dbt_project.yml
+### 1. Clone the Github repo locally
+### 2. Update `sources.yml`
+Modify the `sources.yml` file to ensure proper source mapping for your project's data warehouse.
+```yaml
+version: 2
+sources:
+  - name: your_source_name # hubspot or dynamics365
+    descriptrion : give_description
+    database: PIPELINE_ANALYTICS # change to your database name 
+    schema: RAW  # Change to your schema name
+    tables:
+      - name: your_table_name  # Specify the relevant tables
+```
+### 2. Update `dbt_project.yml`
 Update project settings for compatibility with your environment.
-name: 'pipeline_analytics'
+```yaml
+name: 'pipeline_analytics_dbt'
 version: '1.0.0'
 config-version: 2
 
@@ -64,6 +74,7 @@ target-path: "target"
 clean-targets:
   - "target"
   - "dbt_modules"
+```
 
 ## Features
 Use bullet points for features.
