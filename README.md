@@ -7,14 +7,14 @@ Pipeline Analytics is a form of business performance analysis focused on underst
 - [Requirements](#requirements)
 - [Usage](#usage)
 - [Integration Steps](#integration-steps)
+- [Project Structure](#-project-structure)
 - [Features](#features)
 - [Data Modelling](#data-modelling)
-- [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
 - [Contact](#contact)
 
 ## Overview
-Pipeline Analytics provides visibility into how potential customers move through the sales process — from first contact to purchase — enabling data-driven decisions that drive revenue growth and operational efficiency.
+Pipeline Analytics provides visibility into how potential customers move through the sales process from first contact to purchase — enabling data-driven decisions that drive revenue growth and operational efficiency.
 - ### Key Metrics
     - Pipeline coverage
     - Lead conversion rates
@@ -52,20 +52,27 @@ The difference between the old and the latest versions are:
 Explain how to install or clone the repo.
 
 ## Configuration
-Show config examples.
+1. Update dbt_project.yml
+Update project settings for compatibility with your environment.
+name: 'pipeline_analytics'
+version: '1.0.0'
+config-version: 2
 
-## Usage
-Explain how to run it with code blocks.
+profile: 'your_profile'  # Update with the relevant dbt profile
+source-paths: ["models"]
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_modules"
 
 ## Features
 Use bullet points for features.
 
 ## Data Modelling
 Pipeline Analytics, a data model serves as the structured foundation for organizing and managing sales pipeline data. It defines how key entities such as customers, leads, opportunities, products, and sales activities are interconnected and represented in a database. This model ensures that data is captured, processed, and analyzed consistently, enabling accurate measurement of metrics like lead conversion rates, sales velocity, and win/loss ratios.
+
 _Data Model Diagram_ : [Data Diagram](https://lucid.app/lucidchart/b4ec1fe4-1f6f-49bd-852b-590a6e623bc4/edit?page=G7OlA_oX8Xjb#)
 
-## Troubleshooting
-List common issues and fixes.
 
 ## Contributing
 Add contribution steps.
@@ -73,16 +80,7 @@ Add contribution steps.
 ## Contact
 List maintainers and links.
 
-
-# sales_pipeline_analytics
-
-
-
-## 📝 Description
-
-This project focuses on Sales Pipeline Analytics. Leveraging a robust tech stack, it delivers key insights into your sales process. While the specific technologies used are not listed here, the system's features include comprehensive tracking of leads, automated pipeline stage management, and predictive analytics to forecast sales outcomes. This allows for data-driven decision-making, optimized resource allocation, and ultimately, increased sales conversion rates.
-
-## 📁 Project Structure
+## Project Structure
 
 ```
 Pipeline_Analytics_dbt_Project
